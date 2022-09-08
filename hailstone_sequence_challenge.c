@@ -12,6 +12,7 @@ int main()
     while (value != 1)
     {
         value = (value % 2 == 1) ? (value = value * 3 + 1) : (value = value / 2);
+        count++;
         printf(", %d", value);
     }
     printf("\nSequence length: %d\n", count);
